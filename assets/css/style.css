@@ -204,6 +204,11 @@ nav {
         background: #fff;
     }
 
+    .navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
     .centered {
         font-size: 35px;
         letter-spacing: 11px;
@@ -263,6 +268,13 @@ nav {
 
 /* Small devices (portrait tablets and large phones, 600px and down) */
 @media only screen and (max-width: 556px) {
+
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+
     .centered {
         font-size: 15px;
         letter-spacing: 11px;
@@ -296,6 +308,11 @@ nav {
 }
 
 @media (max-width:320px) { 
+
+    button.navbar-toggler.ml-auto {
+        transform: translate(-2px, 2px);
+    }
+
         /* Footer Nav */
     #bottomNav {
     font-size: 8px;
