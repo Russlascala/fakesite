@@ -1,0 +1,217 @@
+
+/* Nav Bar */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0; 
+    color:#ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav 
+.nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f2f2f2;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e6e6e6;
+}
+
+nav {
+    z-index: 10;
+    /*display: inline-block;*/
+}
+
+.navbar {
+    /*background: #ddbbac00;
+    position: fixed;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 0;
+}
+#navbarNav {
+    margin-right:25px;
+    padding-top: 15px;
+}
+
+.navbar li a::after {
+    content:"/";
+    margin-left:10px;
+    float:right;
+}
+
+.navbar li:last-child a::after {
+    visibility:hidden;
+}
+
+
+
+
+
+/*end of navbar*/
+
+/* Setting the padding to zero for bootstrap container to be full width*/
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+/*SECTION ONE IMAGE*/
+.topImg{
+    width: 100%;
+    z-index: 1;
+    margin-top: -56px;
+}
+
+/*SECTION TWO About*/
+#mealAbout {
+    width: 90%;
+    float: right;
+}
+
+#graySqu {
+    width: 88%;
+    /* margin-top: 68px;
+    margin-left: 50px; */
+    margin-top: 20%;
+    margin-left: 15%; 
+}
+
+/*SECTION THREE get brunch*/
+#mealBrunch {
+    width: 70%;
+    float: left;
+    margin-top: 15%;
+}
+
+/*SECTION FOUR reservation*/
+#reservImg{
+    margin-top: 15%;
+    width:100%;
+}
+
+.container {
+    display: inline-block;
+}
+
+.centered {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+
+/*SECTION FIVE Events */
+#eventImg {
+    margin-top: 15%;
+    margin-right: 10px;
+    width: 85%;
+    float: right;
+}
+
+
+/*SECTION SIX Get in Touch and footer*/
+#mapFooter{
+    width: 100%;
+}
+.mapImg{
+    margin-top: 15%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#footerImg{
+    width:100%;
+    /*margin-top: -60px;*/
+   position: absolute;
+   z-index: 2;
+   bottom: 0;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 670px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 550px) {
+    .centered {
+        font-size: 15px;
+        letter-spacing: 11px;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 670px) {
+    .centered {
+        font-size: 20px;
+        letter-spacing: 11px;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .centered {
+    font-size: 36px;
+    letter-spacing: 11px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .centered {
+        font-size: 40px;
+        letter-spacing: 11px;
+    }
+
+    button.navbar-toggler.ml-auto{
+       z-index: 3;
+    }
+      .navbar-collapse.ml-auto.collapsing {
+        background: #bf9a89 !important;
+        text-align: center !important;
+        border-bottom: 1px solid #000;
+        margin-top: -40px;
+    }
+
+    .navbar-collapse.ml-auto.collapse.show {
+        background: #bf9a89 !important;
+        text-align: center !important;
+        border-bottom: 1px solid #000;
+        margin-top: -40px;
+        z-index: 2;
+    }
+    .navbar li a::after {
+        content: none;
+    }
+
+    #navbarNav {
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+    /*
+    .navbar.navbar-expand-lg.navbar-light.bg-faded{
+        padding-right:-20px;
+    } */
+
+
+  
+    
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .centered {
+        font-size: 50px;
+        letter-spacing: 11px;
+    }
+}
