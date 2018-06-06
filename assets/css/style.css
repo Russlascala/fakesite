@@ -48,8 +48,37 @@ nav {
 .topImg{
     width: 100%;
     z-index: 1;
-    margin-top: -56px;
+    /* margin-top: -56px; */
+    position: relative;
 }
+
+#brandTitle{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    /* transform: translate(-50%, -50%); */
+    z-index: 3;
+}
+
+h1 {
+    position: absolute;
+    font-size: 137pt;
+    letter-spacing: 10px;
+    transform: translate(-50%, -50%);
+}
+h6 {
+    position: absolute;
+    font-size: 44px;
+    letter-spacing: 5px;
+    transform: translate(32%, 120%);
+}
+
+
 
 /* -------------- SECTION TWO About -------------- */
 #mealAbout {
