@@ -78,13 +78,13 @@ nav {
     z-index: 3;
 }
 /*Section one Just Brunch*/
-h1 {
+#brandTitle h1{
     position: absolute;
     font-size: 137pt;
     letter-spacing: 10px;
     transform: translate(-50%, -50%);
 }
-h6 {
+#brandTitle h6 {
     position: absolute;
     font-size: 33pt;
     letter-spacing: 5px;
@@ -94,6 +94,7 @@ h6 {
 
 
 /* -------------- SECTION TWO About -------------- */
+/*Images */ 
 #mealAbout {
     width: 90%;
     float: right;
@@ -106,6 +107,38 @@ h6 {
     margin-top: 20%;
     margin-left: 15%; 
 }
+
+/*Text*/
+/*============== Style OKAY AT 1075px Needs to be responsive*/
+#aboutContent{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    /* transform: translate(-50%, -50%); */
+    z-index: 3;
+}
+#aboutContent h1 {
+    position: absolute;
+    font-size: 94pt;
+    font-family: 'Roboto', sans-serif;
+    color: #c48a80;
+    letter-spacing: 10px;
+    transform: translate(-63%, 329%);
+}
+
+#aboutContent p{
+    position: absolute;
+    font-size: 10pt;
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+    width: 423px;
+    letter-spacing: 10px;
+    transform: translate(-99%, 220%);
+}
+
 
 /* -------------- SECTION THREE get brunch -------------- */
 #mealBrunch {
@@ -191,12 +224,12 @@ h6 {
 /* Extra large devices (large laptops and desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
      /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 110pt;
         letter-spacing: 10px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 26pt;
         letter-spacing: 5px;
     }
@@ -269,12 +302,12 @@ h6 {
     }
 
      /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 62pt;
         letter-spacing: 10px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 15pt;
         letter-spacing: 5px;
     }
@@ -323,12 +356,12 @@ h6 {
 
 
     /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 50pt;
         letter-spacing: 10px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 12pt;
         letter-spacing: 5px;
     }
@@ -362,12 +395,12 @@ h6 {
     }
 
     /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 40pt;
         letter-spacing: 10px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 11pt;
         letter-spacing: 2px;
     }
@@ -395,12 +428,12 @@ h6 {
 @media (max-width:481px) {
 
     /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 27pt;
         letter-spacing: 10px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 8pt;
         letter-spacing: 2px;
     }
@@ -420,12 +453,12 @@ h6 {
 @media (max-width:370px){
 
     /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 24pt;
         letter-spacing: 5px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 9pt;
         letter-spacing: 1px;
     }
@@ -449,12 +482,12 @@ h6 {
     }
 
     /*Section one Just Brunch*/
-    h1 {
+    #brandTitle h1 {
         font-size: 22pt;
         letter-spacing: 5px;
     }
 
-    h6 {
+    #brandTitle h6 {
         font-size: 8pt;
         letter-spacing: 1px;
     }
