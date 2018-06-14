@@ -57,6 +57,10 @@ nav {
     padding-right:0;
     padding-left:0;
 }
+
+.container-fluid{
+    padding:0;
+}
 /* -------------- SECTION ONE IMAGE -------------- */
 .topImg{
     width: 100%;
@@ -107,46 +111,16 @@ nav {
     margin-top: 20%;
     margin-left: 15%; */
     background: #ebebeb;
-    height: 464px;
-    width: 88%;
+    /* height: 464px; */
+    width: 90%;
     margin-top: 19%;
     margin-left: 15%;
 }
 
-/*Text*/
-/*============== Style OKAY AT 1075px Needs to be responsive
-#aboutContent{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;  
-    z-index: 3;
-}
-#aboutContent h1 {
-    position: absolute;
-    font-size: 94pt;
-    font-family: 'Roboto', sans-serif;
-    color: #c48a80;
-    letter-spacing: 10px;
-    transform: translate(-63%, 329%);
-}
-
-#aboutContent p{
-    position: absolute;
-    font-size: 10pt;
-    font-family: 'IBM Plex Mono', monospace;
-    color: black;
-    width: 423px;
-    letter-spacing: 10px;
-    transform: translate(-99%, 220%);
-}
-*/
 
 #aboutContent h1 {
     overflow-x: visible;
-    width: 641px;
+    width: 200%;
     font-size: 88pt;
     padding-left: 15px;
     font-family: 'Roboto', sans-serif;
@@ -253,7 +227,15 @@ nav {
         font-size: 26pt;
         letter-spacing: 5px;
     }
-    
+
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size: 78pt;
+        letter-spacing: 10px;
+    }
+    #aboutContent p{
+        font-size: 13pt;
+    }
     /*Section four Reservations*/
     .centered {
         font-size: 50px;
@@ -332,6 +314,16 @@ nav {
         letter-spacing: 5px;
     }
 
+        /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size: 70pt;
+        letter-spacing: 10px;
+    }
+    #aboutContent p{
+        font-size: 12pt;
+        padding:10px;
+    }
+
  /*Section four Reservations*/
     .centered {
         font-size: 35px;
@@ -353,6 +345,15 @@ nav {
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+
+        /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size: 55pt;
+        letter-spacing: 10px;
+    }
+    #aboutContent p{
+        font-size: 11pt;
+    }
 
      /*Section four Reservations*/
     .centered {
@@ -378,13 +379,23 @@ nav {
     /*Section one Just Brunch*/
     #brandTitle h1 {
         font-size: 50pt;
-        letter-spacing: 10px;
+        letter-spacing: 8px;
     }
 
     #brandTitle h6 {
         font-size: 12pt;
         letter-spacing: 5px;
     }
+
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size: 45pt;
+        letter-spacing: 8px;
+    }
+    #aboutContent p{
+        font-size: 10pt;
+    }
+
 
      /*Section four Reservations*/
     .centered {
@@ -425,6 +436,16 @@ nav {
         letter-spacing: 2px;
     }
 
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size: 40pt;
+        letter-spacing: 8px;
+        margin-bottom: -6px;
+    }
+    #aboutContent p{
+        font-size: 8pt;
+    }
+
  /*Section four Reservations*/
     .centered {
         font-size: 15px;
@@ -450,13 +471,23 @@ nav {
     /*Section one Just Brunch*/
     #brandTitle h1 {
         font-size: 27pt;
-        letter-spacing: 10px;
+        letter-spacing: 8px;
     }
 
     #brandTitle h6 {
         font-size: 8pt;
         letter-spacing: 2px;
     }
+
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size:26pt;
+        letter-spacing: 8px;
+    }
+    #aboutContent p{
+        font-size: 6pt;
+    }
+
     /* Footer Nav */
     #bottomNav {
     font-size: 10px;
@@ -482,6 +513,17 @@ nav {
         font-size: 9pt;
         letter-spacing: 1px;
     }
+
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size:20pt;
+        letter-spacing: 7px;
+    }
+    #aboutContent p{
+        font-size: 6pt;
+        padding:6px;
+    }
+    
 
     /* Footer Nav */
     #bottomNav {
@@ -510,6 +552,16 @@ nav {
     #brandTitle h6 {
         font-size: 8pt;
         letter-spacing: 1px;
+    }
+
+    /* -------------- SECTION TWO About -------------- */
+    #aboutContent h1 {
+        font-size:19pt;
+        letter-spacing: 10px;
+    }
+    #aboutContent p{
+        font-size: 5pt;
+        padding:6px;
     }
 
         /* Footer Nav */
